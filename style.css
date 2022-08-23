@@ -15,8 +15,8 @@ h1 {
 }
 
 .donation {
-    padding-top: 10%;
-    padding-bottom: 8%;
+
+    padding-bottom: 10%;
     text-align: center;
 }
 
@@ -39,11 +39,10 @@ h2 {
 
 .money-row {
     display: flex;
-    padding-left: 15%;
+    padding-left: 150px;
 }
 
 .money-row h2 {
-
     padding: 2%;
     margin: 2%;
     border-radius: 7px;
@@ -54,4 +53,52 @@ h2 {
 #five-hunded {
     border: 2.5px solid orangered;
     background-color: rgb(243, 99, 46);
+}
+
+.flaxibel-containt {
+    display: flex;
+}
+
+.half-width {
+    padding: 20px;
+    border-radius: 7px;
+    margin: 20px;
+}
+
+input {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+}
+
+#food {
+    background-color: rgba(79, 157, 166, 0.1);
+    ;
+}
+
+#shelter {
+    background-color: rgba(255, 89, 89, 0.1);
+    ;
+}
+
+#education {
+    background-color: #faeabc;
+    ;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer h1 {
+    color: orangered;
+}
+
+footer p {
+    color: white;
 }
