@@ -16,7 +16,7 @@ h1 {
 
 .donation {
 
-    padding-bottom: 10%;
+    padding-bottom: 70px;
     text-align: center;
 }
 
@@ -30,7 +30,7 @@ p {
     color: white;
     border-radius: 7px;
     padding: 15px 40px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 h2 {
@@ -57,6 +57,7 @@ h2 {
 
 .flaxibel-containt {
     display: flex;
+    padding-top: 0px;
 }
 
 .half-width {
@@ -65,7 +66,7 @@ h2 {
     margin: 20px;
 }
 
-input {
+.other-amount {
     width: 50%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -90,12 +91,30 @@ input {
     ;
 }
 
+.email {
+    width: 15%;
+    padding: 15px 40px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 7px;
+    border: 2px solid #ccc;
+}
+
+.updates {
+    background-color: #ccc;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
 footer {
     background-color: black;
     text-align: center;
 }
 
-footer h1 {
+footer h2 {
     color: orangered;
 }
 
